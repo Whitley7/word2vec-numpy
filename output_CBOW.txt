@@ -1,0 +1,189 @@
+/Users/ayan.sultanov/PycharmProjects/PythonProject1/word2vec.py:279: RuntimeWarning: divide by zero encountered in matmul
+  sims = (W @ vec) / (W_norm * vec_norm)
+/Users/ayan.sultanov/PycharmProjects/PythonProject1/word2vec.py:279: RuntimeWarning: overflow encountered in matmul
+  sims = (W @ vec) / (W_norm * vec_norm)
+/Users/ayan.sultanov/PycharmProjects/PythonProject1/word2vec.py:279: RuntimeWarning: invalid value encountered in matmul
+  sims = (W @ vec) / (W_norm * vec_norm)
+
+CBOW
+
+  Total tokens: 17,005,207
+  Vocab size:   71,290
+  Epoch 1 ; 100,000/4,671,030 words ; loss 4.1588 ; lr 0.024990
+  Epoch 1 ; 200,000/4,671,030 words ; loss 4.1545 ; lr 0.024980
+  Epoch 1 ; 300,000/4,671,030 words ; loss 4.1017 ; lr 0.024970
+  Epoch 1 ; 400,000/4,671,030 words ; loss 4.0111 ; lr 0.024960
+  Epoch 1 ; 500,000/4,671,030 words ; loss 3.9192 ; lr 0.024950
+  Epoch 1 ; 600,000/4,671,030 words ; loss 3.8346 ; lr 0.024940
+  Epoch 1 ; 700,000/4,671,030 words ; loss 3.7600 ; lr 0.024930
+  Epoch 1 ; 800,000/4,671,030 words ; loss 3.6925 ; lr 0.024920
+  Epoch 1 ; 900,000/4,671,030 words ; loss 3.6309 ; lr 0.024910
+  Epoch 1 ; 1,000,000/4,671,030 words ; loss 3.5772 ; lr 0.024900
+  Epoch 1 ; 1,100,000/4,671,030 words ; loss 3.5321 ; lr 0.024890
+  Epoch 1 ; 1,200,000/4,671,030 words ; loss 3.4903 ; lr 0.024880
+  Epoch 1 ; 1,300,000/4,671,030 words ; loss 3.4518 ; lr 0.024870
+  Epoch 1 ; 1,400,000/4,671,030 words ; loss 3.4162 ; lr 0.024860
+  Epoch 1 ; 1,500,000/4,671,030 words ; loss 3.3836 ; lr 0.024850
+  Epoch 1 ; 1,600,000/4,671,030 words ; loss 3.3549 ; lr 0.024840
+  Epoch 1 ; 1,700,000/4,671,030 words ; loss 3.3282 ; lr 0.024831
+  Epoch 1 ; 1,800,000/4,671,030 words ; loss 3.3043 ; lr 0.024821
+  Epoch 1 ; 1,900,000/4,671,030 words ; loss 3.2812 ; lr 0.024811
+  Epoch 1 ; 2,000,000/4,671,030 words ; loss 3.2603 ; lr 0.024801
+  Epoch 1 ; 2,100,000/4,671,030 words ; loss 3.2418 ; lr 0.024791
+  Epoch 1 ; 2,200,000/4,671,030 words ; loss 3.2234 ; lr 0.024781
+  Epoch 1 ; 2,300,000/4,671,030 words ; loss 3.2063 ; lr 0.024771
+  Epoch 1 ; 2,400,000/4,671,030 words ; loss 3.1907 ; lr 0.024761
+  Epoch 1 ; 2,500,000/4,671,030 words ; loss 3.1751 ; lr 0.024751
+  Epoch 1 ; 2,600,000/4,671,030 words ; loss 3.1610 ; lr 0.024741
+  Epoch 1 ; 2,700,000/4,671,030 words ; loss 3.1485 ; lr 0.024731
+  Epoch 1 ; 2,800,000/4,671,030 words ; loss 3.1356 ; lr 0.024721
+  Epoch 1 ; 2,900,000/4,671,030 words ; loss 3.1234 ; lr 0.024711
+  Epoch 1 ; 3,000,000/4,671,030 words ; loss 3.1121 ; lr 0.024701
+  Epoch 1 ; 3,100,000/4,671,030 words ; loss 3.1015 ; lr 0.024691
+  Epoch 1 ; 3,200,000/4,671,030 words ; loss 3.0909 ; lr 0.024681
+  Epoch 1 ; 3,300,000/4,671,030 words ; loss 3.0811 ; lr 0.024671
+  Epoch 1 ; 3,400,000/4,671,030 words ; loss 3.0715 ; lr 0.024661
+  Epoch 1 ; 3,500,000/4,671,030 words ; loss 3.0626 ; lr 0.024651
+  Epoch 1 ; 3,600,000/4,671,030 words ; loss 3.0536 ; lr 0.024641
+  Epoch 1 ; 3,700,000/4,671,030 words ; loss 3.0448 ; lr 0.024631
+  Epoch 1 ; 3,800,000/4,671,030 words ; loss 3.0365 ; lr 0.024621
+  Epoch 1 ; 3,900,000/4,671,030 words ; loss 3.0287 ; lr 0.024611
+  Epoch 1 ; 4,000,000/4,671,030 words ; loss 3.0213 ; lr 0.024601
+  Epoch 1 ; 4,100,000/4,671,030 words ; loss 3.0142 ; lr 0.024591
+  Epoch 1 ; 4,200,000/4,671,030 words ; loss 3.0072 ; lr 0.024581
+  Epoch 1 ; 4,300,000/4,671,030 words ; loss 3.0004 ; lr 0.024571
+  Epoch 1 ; 4,400,000/4,671,030 words ; loss 2.9940 ; lr 0.024561
+  Epoch 1 ; 4,500,000/4,671,030 words ; loss 2.9879 ; lr 0.024551
+  Epoch 1 ; 4,600,000/4,671,030 words ; loss 2.9815 ; lr 0.024541
+  Epoch 1/3 done. Average loss: 2.9774)
+  Epoch 2 ; 100,000/4,669,830 words ; loss 2.7120 ; lr 0.024524
+  Epoch 2 ; 200,000/4,669,830 words ; loss 2.7058 ; lr 0.024514
+  Epoch 2 ; 300,000/4,669,830 words ; loss 2.6941 ; lr 0.024504
+  Epoch 2 ; 400,000/4,669,830 words ; loss 2.6895 ; lr 0.024494
+  Epoch 2 ; 500,000/4,669,830 words ; loss 2.6857 ; lr 0.024485
+  Epoch 2 ; 600,000/4,669,830 words ; loss 2.6843 ; lr 0.024475
+  Epoch 2 ; 700,000/4,669,830 words ; loss 2.6831 ; lr 0.024465
+  Epoch 2 ; 800,000/4,669,830 words ; loss 2.6830 ; lr 0.024455
+  Epoch 2 ; 900,000/4,669,830 words ; loss 2.6792 ; lr 0.024445
+  Epoch 2 ; 1,000,000/4,669,830 words ; loss 2.6778 ; lr 0.024435
+  Epoch 2 ; 1,100,000/4,669,830 words ; loss 2.6789 ; lr 0.024425
+  Epoch 2 ; 1,200,000/4,669,830 words ; loss 2.6769 ; lr 0.024415
+  Epoch 2 ; 1,300,000/4,669,830 words ; loss 2.6755 ; lr 0.024405
+  Epoch 2 ; 1,400,000/4,669,830 words ; loss 2.6739 ; lr 0.024395
+  Epoch 2 ; 1,500,000/4,669,830 words ; loss 2.6718 ; lr 0.024385
+  Epoch 2 ; 1,600,000/4,669,830 words ; loss 2.6712 ; lr 0.024375
+  Epoch 2 ; 1,700,000/4,669,830 words ; loss 2.6703 ; lr 0.024365
+  Epoch 2 ; 1,800,000/4,669,830 words ; loss 2.6691 ; lr 0.024355
+  Epoch 2 ; 1,900,000/4,669,830 words ; loss 2.6676 ; lr 0.024345
+  Epoch 2 ; 2,000,000/4,669,830 words ; loss 2.6667 ; lr 0.024335
+  Epoch 2 ; 2,100,000/4,669,830 words ; loss 2.6661 ; lr 0.024325
+  Epoch 2 ; 2,200,000/4,669,830 words ; loss 2.6653 ; lr 0.024315
+  Epoch 2 ; 2,300,000/4,669,830 words ; loss 2.6643 ; lr 0.024305
+  Epoch 2 ; 2,400,000/4,669,830 words ; loss 2.6632 ; lr 0.024295
+  Epoch 2 ; 2,500,000/4,669,830 words ; loss 2.6611 ; lr 0.024285
+  Epoch 2 ; 2,600,000/4,669,830 words ; loss 2.6603 ; lr 0.024275
+  Epoch 2 ; 2,700,000/4,669,830 words ; loss 2.6597 ; lr 0.024265
+  Epoch 2 ; 2,800,000/4,669,830 words ; loss 2.6588 ; lr 0.024255
+  Epoch 2 ; 2,900,000/4,669,830 words ; loss 2.6580 ; lr 0.024245
+  Epoch 2 ; 3,000,000/4,669,830 words ; loss 2.6572 ; lr 0.024235
+  Epoch 2 ; 3,100,000/4,669,830 words ; loss 2.6566 ; lr 0.024225
+  Epoch 2 ; 3,200,000/4,669,830 words ; loss 2.6558 ; lr 0.024215
+  Epoch 2 ; 3,300,000/4,669,830 words ; loss 2.6550 ; lr 0.024205
+  Epoch 2 ; 3,400,000/4,669,830 words ; loss 2.6539 ; lr 0.024195
+  Epoch 2 ; 3,500,000/4,669,830 words ; loss 2.6531 ; lr 0.024185
+  Epoch 2 ; 3,600,000/4,669,830 words ; loss 2.6507 ; lr 0.024175
+  Epoch 2 ; 3,700,000/4,669,830 words ; loss 2.6490 ; lr 0.024166
+  Epoch 2 ; 3,800,000/4,669,830 words ; loss 2.6480 ; lr 0.024156
+  Epoch 2 ; 3,900,000/4,669,830 words ; loss 2.6474 ; lr 0.024146
+  Epoch 2 ; 4,000,000/4,669,830 words ; loss 2.6464 ; lr 0.024136
+  Epoch 2 ; 4,100,000/4,669,830 words ; loss 2.6456 ; lr 0.024126
+  Epoch 2 ; 4,200,000/4,669,830 words ; loss 2.6446 ; lr 0.024116
+  Epoch 2 ; 4,300,000/4,669,830 words ; loss 2.6430 ; lr 0.024106
+  Epoch 2 ; 4,400,000/4,669,830 words ; loss 2.6418 ; lr 0.024096
+  Epoch 2 ; 4,500,000/4,669,830 words ; loss 2.6410 ; lr 0.024086
+  Epoch 2 ; 4,600,000/4,669,830 words ; loss 2.6396 ; lr 0.024076
+  Epoch 2/3 done. Average loss: 2.6392)
+  Epoch 3 ; 100,000/4,669,315 words ; loss 2.6031 ; lr 0.024059
+  Epoch 3 ; 200,000/4,669,315 words ; loss 2.5966 ; lr 0.024049
+  Epoch 3 ; 300,000/4,669,315 words ; loss 2.5877 ; lr 0.024039
+  Epoch 3 ; 400,000/4,669,315 words ; loss 2.5847 ; lr 0.024029
+  Epoch 3 ; 500,000/4,669,315 words ; loss 2.5824 ; lr 0.024019
+  Epoch 3 ; 600,000/4,669,315 words ; loss 2.5829 ; lr 0.024009
+  Epoch 3 ; 700,000/4,669,315 words ; loss 2.5830 ; lr 0.023999
+  Epoch 3 ; 800,000/4,669,315 words ; loss 2.5841 ; lr 0.023989
+  Epoch 3 ; 900,000/4,669,315 words ; loss 2.5822 ; lr 0.023979
+  Epoch 3 ; 1,000,000/4,669,315 words ; loss 2.5823 ; lr 0.023969
+  Epoch 3 ; 1,100,000/4,669,315 words ; loss 2.5829 ; lr 0.023959
+  Epoch 3 ; 1,200,000/4,669,315 words ; loss 2.5807 ; lr 0.023949
+  Epoch 3 ; 1,300,000/4,669,315 words ; loss 2.5786 ; lr 0.023939
+  Epoch 3 ; 1,400,000/4,669,315 words ; loss 2.5768 ; lr 0.023929
+  Epoch 3 ; 1,500,000/4,669,315 words ; loss 2.5755 ; lr 0.023919
+  Epoch 3 ; 1,600,000/4,669,315 words ; loss 2.5748 ; lr 0.023909
+  Epoch 3 ; 1,700,000/4,669,315 words ; loss 2.5745 ; lr 0.023899
+  Epoch 3 ; 1,800,000/4,669,315 words ; loss 2.5725 ; lr 0.023889
+  Epoch 3 ; 1,900,000/4,669,315 words ; loss 2.5711 ; lr 0.023879
+  Epoch 3 ; 2,000,000/4,669,315 words ; loss 2.5706 ; lr 0.023869
+  Epoch 3 ; 2,100,000/4,669,315 words ; loss 2.5698 ; lr 0.023859
+  Epoch 3 ; 2,200,000/4,669,315 words ; loss 2.5692 ; lr 0.023850
+  Epoch 3 ; 2,300,000/4,669,315 words ; loss 2.5684 ; lr 0.023840
+  Epoch 3 ; 2,400,000/4,669,315 words ; loss 2.5668 ; lr 0.023830
+  Epoch 3 ; 2,500,000/4,669,315 words ; loss 2.5646 ; lr 0.023820
+  Epoch 3 ; 2,600,000/4,669,315 words ; loss 2.5639 ; lr 0.023810
+  Epoch 3 ; 2,700,000/4,669,315 words ; loss 2.5636 ; lr 0.023800
+  Epoch 3 ; 2,800,000/4,669,315 words ; loss 2.5629 ; lr 0.023790
+  Epoch 3 ; 2,900,000/4,669,315 words ; loss 2.5626 ; lr 0.023780
+  Epoch 3 ; 3,000,000/4,669,315 words ; loss 2.5623 ; lr 0.023770
+  Epoch 3 ; 3,100,000/4,669,315 words ; loss 2.5621 ; lr 0.023760
+  Epoch 3 ; 3,200,000/4,669,315 words ; loss 2.5615 ; lr 0.023750
+  Epoch 3 ; 3,300,000/4,669,315 words ; loss 2.5610 ; lr 0.023740
+  Epoch 3 ; 3,400,000/4,669,315 words ; loss 2.5597 ; lr 0.023730
+  Epoch 3 ; 3,500,000/4,669,315 words ; loss 2.5590 ; lr 0.023720
+  Epoch 3 ; 3,600,000/4,669,315 words ; loss 2.5558 ; lr 0.023710
+  Epoch 3 ; 3,700,000/4,669,315 words ; loss 2.5546 ; lr 0.023700
+  Epoch 3 ; 3,800,000/4,669,315 words ; loss 2.5541 ; lr 0.023690
+  Epoch 3 ; 3,900,000/4,669,315 words ; loss 2.5538 ; lr 0.023680
+  Epoch 3 ; 4,000,000/4,669,315 words ; loss 2.5527 ; lr 0.023670
+  Epoch 3 ; 4,100,000/4,669,315 words ; loss 2.5516 ; lr 0.023660
+  Epoch 3 ; 4,200,000/4,669,315 words ; loss 2.5506 ; lr 0.023650
+  Epoch 3 ; 4,300,000/4,669,315 words ; loss 2.5490 ; lr 0.023640
+  Epoch 3 ; 4,400,000/4,669,315 words ; loss 2.5475 ; lr 0.023630
+  Epoch 3 ; 4,500,000/4,669,315 words ; loss 2.5467 ; lr 0.023620
+  Epoch 3 ; 4,600,000/4,669,315 words ; loss 2.5455 ; lr 0.023610
+  Epoch 3/3 done. Average loss: 2.5452)
+ Similarity checks 
+Most similar to 'king':
+died                 0.9955
+england              0.9947
+mary                 0.9943
+scotland             0.9935
+ii                   0.9929
+emperor              0.9927
+married              0.9920
+pope                 0.9918
+queen                0.9917
+governor             0.9915
+
+Most similar to 'computer':
+windows              0.9913
+software             0.9873
+operating            0.9865
+programming          0.9847
+microsoft            0.9845
+interface            0.9844
+computers            0.9828
+lisp                 0.9825
+file                 0.9797
+hardware             0.9784
+
+Most similar to 'france':
+poland               0.9971
+spain                0.9968
+england              0.9964
+governor             0.9957
+minister             0.9954
+president            0.9954
+national             0.9953
+germany              0.9950
+canada               0.9928
+british              0.9927
+

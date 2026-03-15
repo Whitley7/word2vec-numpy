@@ -1,0 +1,89 @@
+SKIP-GRAM
+
+  Total tokens: 17,005,207
+  Vocab size: 71,290
+  Epoch 1 ; 100,000/4,669,690 words ; loss 3.2845 ; lr 0.024701
+  Epoch 1 ; 200,000/4,669,690 words ; loss 3.0454 ; lr 0.024402
+  Epoch 1 ; 300,000/4,669,690 words ; loss 2.9030 ; lr 0.024103
+  Epoch 1 ; 400,000/4,669,690 words ; loss 2.8217 ; lr 0.023804
+  Epoch 1 ; 500,000/4,669,690 words ; loss 2.7627 ; lr 0.023505
+  Epoch 1 ; 600,000/4,669,690 words ; loss 2.7192 ; lr 0.023206
+  Epoch 1 ; 700,000/4,669,690 words ; loss 2.6808 ; lr 0.022907
+  Epoch 1 ; 800,000/4,669,690 words ; loss 2.6498 ; lr 0.022607
+  Epoch 1 ; 900,000/4,669,690 words ; loss 2.6184 ; lr 0.022308
+  Epoch 1 ; 1,000,000/4,669,690 words ; loss 2.5974 ; lr 0.022009
+  Epoch 1 ; 1,100,000/4,669,690 words ; loss 2.5815 ; lr 0.021710
+  Epoch 1 ; 1,200,000/4,669,690 words ; loss 2.5606 ; lr 0.021411
+  Epoch 1 ; 1,300,000/4,669,690 words ; loss 2.5440 ; lr 0.021112
+  Epoch 1 ; 1,400,000/4,669,690 words ; loss 2.5286 ; lr 0.020813
+  Epoch 1 ; 1,500,000/4,669,690 words ; loss 2.5149 ; lr 0.020514
+  Epoch 1 ; 1,600,000/4,669,690 words ; loss 2.5048 ; lr 0.020215
+  Epoch 1 ; 1,700,000/4,669,690 words ; loss 2.4945 ; lr 0.019916
+  Epoch 1 ; 1,800,000/4,669,690 words ; loss 2.4855 ; lr 0.019617
+  Epoch 1 ; 1,900,000/4,669,690 words ; loss 2.4763 ; lr 0.019318
+  Epoch 1 ; 2,000,000/4,669,690 words ; loss 2.4688 ; lr 0.019019
+  Epoch 1 ; 2,100,000/4,669,690 words ; loss 2.4601 ; lr 0.018720
+  Epoch 1 ; 2,200,000/4,669,690 words ; loss 2.4525 ; lr 0.018421
+  Epoch 1 ; 2,300,000/4,669,690 words ; loss 2.4455 ; lr 0.018122
+  Epoch 1 ; 2,400,000/4,669,690 words ; loss 2.4389 ; lr 0.017822
+  Epoch 1 ; 2,500,000/4,669,690 words ; loss 2.4318 ; lr 0.017523
+  Epoch 1 ; 2,600,000/4,669,690 words ; loss 2.4268 ; lr 0.017224
+  Epoch 1 ; 2,700,000/4,669,690 words ; loss 2.4214 ; lr 0.016925
+  Epoch 1 ; 2,800,000/4,669,690 words ; loss 2.4164 ; lr 0.016626
+  Epoch 1 ; 2,900,000/4,669,690 words ; loss 2.4120 ; lr 0.016327
+  Epoch 1 ; 3,000,000/4,669,690 words ; loss 2.4076 ; lr 0.016028
+  Epoch 1 ; 3,100,000/4,669,690 words ; loss 2.4038 ; lr 0.015729
+  Epoch 1 ; 3,200,000/4,669,690 words ; loss 2.4000 ; lr 0.015430
+  Epoch 1 ; 3,300,000/4,669,690 words ; loss 2.3958 ; lr 0.015131
+  Epoch 1 ; 3,400,000/4,669,690 words ; loss 2.3910 ; lr 0.014832
+  Epoch 1 ; 3,500,000/4,669,690 words ; loss 2.3878 ; lr 0.014533
+  Epoch 1 ; 3,600,000/4,669,690 words ; loss 2.3835 ; lr 0.014234
+  Epoch 1 ; 3,700,000/4,669,690 words ; loss 2.3809 ; lr 0.013935
+  Epoch 1 ; 3,800,000/4,669,690 words ; loss 2.3783 ; lr 0.013636
+  Epoch 1 ; 3,900,000/4,669,690 words ; loss 2.3763 ; lr 0.013337
+  Epoch 1 ; 4,000,000/4,669,690 words ; loss 2.3726 ; lr 0.013037
+  Epoch 1 ; 4,100,000/4,669,690 words ; loss 2.3698 ; lr 0.012738
+  Epoch 1 ; 4,200,000/4,669,690 words ; loss 2.3673 ; lr 0.012439
+  Epoch 1 ; 4,300,000/4,669,690 words ; loss 2.3634 ; lr 0.012140
+  Epoch 1 ; 4,400,000/4,669,690 words ; loss 2.3612 ; lr 0.011841
+  Epoch 1 ; 4,500,000/4,669,690 words ; loss 2.3596 ; lr 0.011542
+  Epoch 1 ; 4,600,000/4,669,690 words ; loss 2.3577 ; lr 0.011243
+  Epoch 1/1 done. Average loss: 2.3570)
+ Similarity checks 
+Most similar to 'king':
+grandson             0.9477
+antoninus            0.9475
+marcus               0.9409
+claudian             0.9351
+vii                  0.9342
+pretender            0.9334
+hohenstaufen         0.9326
+lombard              0.9323
+augustus             0.9315
+xiv                  0.9312
+
+Most similar to 'computer':
+computers            0.9578
+graphical            0.9496
+ported               0.9439
+multics              0.9395
+spreadsheet          0.9368
+linus                0.9364
+xerox                0.9357
+macromedia           0.9356
+compiler             0.9339
+computing            0.9334
+
+Most similar to 'france':
+austria              0.9423
+hungary              0.9345
+spain                0.9250
+italy                0.9170
+napoleonic           0.9158
+russia               0.9077
+prussian             0.9053
+franco               0.9050
+portugal             0.9048
+germany              0.9024
+
+
