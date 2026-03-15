@@ -8,6 +8,13 @@ This is the repo for submission to three internship project applications: "Hallu
 
 Both variants are available to run via `word2vec.py`. The repository also contains `output_CBOW.txt` and `output_SKIP-GRAM.txt` with experiment results and similarity checks.
 
+## Clone
+
+```bash
+git clone https://github.com/Whitley7/word2vec-numpy.git
+cd word2vec-numpy
+```
+
 ## Setup
 
 ```bash
