@@ -17,9 +17,17 @@ cd word2vec-numpy
 
 ## Setup
 
+macOS / Linux:
 ```bash
 python -m venv .venv
 source .venv/bin/activate
+pip install numpy
+```
+
+Windows:
+```bash
+python -m venv .venv
+.venv\Scripts\activate
 pip install numpy
 ```
 
